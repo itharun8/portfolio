@@ -183,10 +183,22 @@ ul.social-icons {
   border: 3px solid var(--primary);
    margin-top: 30px;
    box-shadow: 3px 5px 40px #03506e;
+   align-items: center;
+   display: flex;
     
 
   
 
+}
+.about-section img {
+    width: 350px;
+    height: 450px;            /* 1. Give the box a specific height */
+    object-fit: cover;        /* 2. This forces the image to fill the box */
+    object-position: top;     /* 3. This ensures your head isn't cut off */
+    border-radius: 10px;
+    border: 3px solid var(--primary);
+    margin-top: -30px;
+    background-color: #2a3139; /* Optional: Adds a subtle background behind you */
 }
 
 .about-section--desc {
@@ -228,4 +240,73 @@ ul.social-icons {
 }
 .about-section--desc li > a:hover {
   color: var(--primary);
+}
+
+/* work sesction */
+
+.work-section {
+  background-color: var(--dark-primary);
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+}
+.work-section-title {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.work-section-title span {
+  color: var(--primary-hover);
+}
+
+
+.work-section-box{
+  background-color: #22282f;
+  padding:  30px;
+  max-width: 300px;
+  text-align: left;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 40px;
+
+}
+.work-section-box p {
+  color: grey;
+  font-size: 14px
+} 
+.work-section-box a {
+  text-transform: none;
+  color: #feda75;
+  display: block;
+  margin-top: 10px;
+  
+}
+.work-section-box__desc {
+  margin: bottom 10px;
+  margin-top: 20px;
+
+}
+.work-section-box__desc p {
+  padding-top:5px ;
+}
+
+.work-section-box__desc p {
+   padding-top: 5px;
+}
+
+
+
+.work-section-box__icon {
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.work-section-box__icon:hover {
+  background-color: var(--primary-hover);
+}
+.work-section-items {
+  display: flex;
+  justify-content: center;
 }
