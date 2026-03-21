@@ -310,3 +310,33 @@ ul.social-icons {
   display: flex;
   justify-content: center;
 }
+
+/* contact section  */
+
+.contact-section {
+  background-color: #14171c;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+.contact-section form > input  textarea{
+  padding:5px 10px;
+  outline: none; 
+  width: 350px ;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.contact-section {
+  font-size: 30px;
+  margin:  20px 0;
+  font-weight: 950;
+  
+}
+
+.contact-section h4 span {
+  color: var(--primary);
+}
+
